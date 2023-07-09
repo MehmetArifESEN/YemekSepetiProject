@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: tmtmtm13
+    url: jdbc:postgresql://localhost:5432/YemekSepetiDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
